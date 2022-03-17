@@ -1,6 +1,6 @@
 {
   "name": "group-sort-util",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "simple module for temporally group and sort a collection",
   "main": "index.js",
   "scripts": {    
