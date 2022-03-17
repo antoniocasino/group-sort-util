@@ -10,7 +10,7 @@ npm test
 - sort each element inside the related group according to the sorting attributes specified
 
 ### Example of usage: 
-    groupAndTemporalSort({
-            collection:testData,unit:temporalUnit.DAY,temporalOrder:sortOrder.descending,
-            temporalPropertyName:"date",groupPropertyName:"group-1",groupOrder:sortOrder.ascending
-    });  
+    let groupAndTemporalSortCollection = groupAndTemporalSort(
+        {collection:testData,unit:temporalUnit.MINUTE,temporalOrder:sortOrder.descending,
+        temporalPropertyName:"date",groupPropertyName:"group-1",groupOrder:sortOrder.ascending}
+    );  
