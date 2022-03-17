@@ -58,6 +58,6 @@ export function groupAndTemporalSort(
     return groupedElements;
 }
 
-export const temporalUnit = {DAY:"YYYY-MM-DD"};
+export const temporalUnit = {DAY:"YYYY-MM-DD", HOUR:"YYYY-MM-DD HH", MINUTE:"YYYY-MM-DD HH mm", SECOND:"YYYY-MM-DD HH mm ss" };
 export const sortOrder={ascending:"asc",descending:"desc"};
 export const finalElementSchema = { group: "string", entries: [], temporal_unit: "string" }
