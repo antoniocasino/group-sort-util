@@ -7,4 +7,4 @@ let groupAndTemporalSortCollection = groupAndTemporalSort(
     {collection:testData,unit:temporalUnit.MINUTE,temporalOrder:sortOrder.descending,
         temporalPropertyName:"date",groupPropertyName:"group-1",groupOrder:sortOrder.ascending});       
 
-assert(groupAndTemporalSortCollection.flatMap(e=>e.entries).length == testData.length, "the collection size is not the same size");
+assert(groupAndTemporalSortCollection.flatMap(e=>e.entries).length == testData.length, "size should be the same");
