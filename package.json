@@ -1,17 +1,16 @@
 {
   "name": "group-sort-util",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "simple module for temporally group and sort a collection",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
-    "test": "node --trace-uncaught test.js"
+    "test": "node --trace-uncaught test.mjs"
   },
   "keywords": [
     "temporally group sort collection"
   ],
   "author": "antonio casino",
-  "license": "ISC",
-  "type": "module",
+  "license": "ISC",  
   "dependencies": {
     "lodash": "^4.17.21",
     "moment": "^2.29.1"

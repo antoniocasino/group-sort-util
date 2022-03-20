@@ -1,5 +1,5 @@
-import {testData} from "./testData.js";
-import {groupAndTemporalSort,temporalUnit,sortOrder,finalElementSchema} from "./index.js";
+import {testData} from "./testData.mjs";
+import {groupAndTemporalSort,temporalUnit,sortOrder,finalElementSchema} from "./index.mjs";
 import { strict as assert } from 'assert';
 import _ from "lodash";
 
